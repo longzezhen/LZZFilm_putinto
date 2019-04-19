@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD2F4ED22697B9D005DE0FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F4EC22697B9D005DE0FA /* AppDelegate.m */; };
+		BFD2F4F022697B9D005DE0FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F4EF22697B9D005DE0FA /* ViewController.m */; };
+		BFD2F4F322697B9D005DE0FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD2F4F122697B9D005DE0FA /* Main.storyboard */; };
+		BFD2F4F522697B9F005DE0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD2F4F422697B9F005DE0FA /* Assets.xcassets */; };
+		BFD2F4F822697B9F005DE0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD2F4F622697B9F005DE0FA /* LaunchScreen.storyboard */; };
+		BFD2F4FB22697B9F005DE0FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F4FA22697B9F005DE0FA /* main.m */; };
+		BFD2F50522697B9F005DE0FA /* LZZFilmPutintoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F50422697B9F005DE0FA /* LZZFilmPutintoTests.m */; };
+		BFD2F51022697B9F005DE0FA /* LZZFilmPutintoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F50F22697B9F005DE0FA /* LZZFilmPutintoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD2F50122697B9F005DE0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD2F4E022697B9D005DE0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD2F4E722697B9D005DE0FA;
+			remoteInfo = LZZFilmPutinto;
+		};
+		BFD2F50C22697B9F005DE0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD2F4E022697B9D005DE0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD2F4E722697B9D005DE0FA;
+			remoteInfo = LZZFilmPutinto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFD2F4E822697B9D005DE0FA /* LZZFilmPutinto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZZFilmPutinto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD2F4EB22697B9D005DE0FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFD2F4EC22697B9D005DE0FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFD2F4EE22697B9D005DE0FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFD2F4EF22697B9D005DE0FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFD2F4F222697B9D005DE0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD2F4F422697B9F005DE0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD2F4F722697B9F005DE0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD2F4F922697B9F005DE0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD2F4FA22697B9F005DE0FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD2F50022697B9F005DE0FA /* LZZFilmPutintoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZZFilmPutintoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD2F50422697B9F005DE0FA /* LZZFilmPutintoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZZFilmPutintoTests.m; sourceTree = "<group>"; };
+		BFD2F50622697B9F005DE0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD2F50B22697B9F005DE0FA /* LZZFilmPutintoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZZFilmPutintoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD2F50F22697B9F005DE0FA /* LZZFilmPutintoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZZFilmPutintoUITests.m; sourceTree = "<group>"; };
+		BFD2F51122697B9F005DE0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD2F4E522697B9D005DE0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD2F4FD22697B9F005DE0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD2F50822697B9F005DE0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD2F4DF22697B9D005DE0FA = {
+			isa = PBXGroup;
+			children = (
+				BFD2F4EA22697B9D005DE0FA /* LZZFilmPutinto */,
+				BFD2F50322697B9F005DE0FA /* LZZFilmPutintoTests */,
+				BFD2F50E22697B9F005DE0FA /* LZZFilmPutintoUITests */,
+				BFD2F4E922697B9D005DE0FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD2F4E922697B9D005DE0FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2F4E822697B9D005DE0FA /* LZZFilmPutinto.app */,
+				BFD2F50022697B9F005DE0FA /* LZZFilmPutintoTests.xctest */,
+				BFD2F50B22697B9F005DE0FA /* LZZFilmPutintoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD2F4EA22697B9D005DE0FA /* LZZFilmPutinto */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2F4EB22697B9D005DE0FA /* AppDelegate.h */,
+				BFD2F4EC22697B9D005DE0FA /* AppDelegate.m */,
+				BFD2F4EE22697B9D005DE0FA /* ViewController.h */,
+				BFD2F4EF22697B9D005DE0FA /* ViewController.m */,
+				BFD2F4F122697B9D005DE0FA /* Main.storyboard */,
+				BFD2F4F422697B9F005DE0FA /* Assets.xcassets */,
+				BFD2F4F622697B9F005DE0FA /* LaunchScreen.storyboard */,
+				BFD2F4F922697B9F005DE0FA /* Info.plist */,
+				BFD2F4FA22697B9F005DE0FA /* main.m */,
+			);
+			path = LZZFilmPutinto;
+			sourceTree = "<group>";
+		};
+		BFD2F50322697B9F005DE0FA /* LZZFilmPutintoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2F50422697B9F005DE0FA /* LZZFilmPutintoTests.m */,
+				BFD2F50622697B9F005DE0FA /* Info.plist */,
+			);
+			path = LZZFilmPutintoTests;
+			sourceTree = "<group>";
+		};
+		BFD2F50E22697B9F005DE0FA /* LZZFilmPutintoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2F50F22697B9F005DE0FA /* LZZFilmPutintoUITests.m */,
+				BFD2F51122697B9F005DE0FA /* Info.plist */,
+			);
+			path = LZZFilmPutintoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD2F4E722697B9D005DE0FA /* LZZFilmPutinto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD2F51422697B9F005DE0FA /* Build configuration list for PBXNativeTarget "LZZFilmPutinto" */;
+			buildPhases = (
+				BFD2F4E422697B9D005DE0FA /* Sources */,
+				BFD2F4E522697B9D005DE0FA /* Frameworks */,
+				BFD2F4E622697B9D005DE0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZZFilmPutinto;
+			productName = LZZFilmPutinto;
+			productReference = BFD2F4E822697B9D005DE0FA /* LZZFilmPutinto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD2F4FF22697B9F005DE0FA /* LZZFilmPutintoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD2F51722697B9F005DE0FA /* Build configuration list for PBXNativeTarget "LZZFilmPutintoTests" */;
+			buildPhases = (
+				BFD2F4FC22697B9F005DE0FA /* Sources */,
+				BFD2F4FD22697B9F005DE0FA /* Frameworks */,
+				BFD2F4FE22697B9F005DE0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD2F50222697B9F005DE0FA /* PBXTargetDependency */,
+			);
+			name = LZZFilmPutintoTests;
+			productName = LZZFilmPutintoTests;
+			productReference = BFD2F50022697B9F005DE0FA /* LZZFilmPutintoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFD2F50A22697B9F005DE0FA /* LZZFilmPutintoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD2F51A22697B9F005DE0FA /* Build configuration list for PBXNativeTarget "LZZFilmPutintoUITests" */;
+			buildPhases = (
+				BFD2F50722697B9F005DE0FA /* Sources */,
+				BFD2F50822697B9F005DE0FA /* Frameworks */,
+				BFD2F50922697B9F005DE0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD2F50D22697B9F005DE0FA /* PBXTargetDependency */,
+			);
+			name = LZZFilmPutintoUITests;
+			productName = LZZFilmPutintoUITests;
+			productReference = BFD2F50B22697B9F005DE0FA /* LZZFilmPutintoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD2F4E022697B9D005DE0FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = tools;
+				TargetAttributes = {
+					BFD2F4E722697B9D005DE0FA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BFD2F4FF22697B9F005DE0FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFD2F4E722697B9D005DE0FA;
+					};
+					BFD2F50A22697B9F005DE0FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFD2F4E722697B9D005DE0FA;
+					};
+				};
+			};
+			buildConfigurationList = BFD2F4E322697B9D005DE0FA /* Build configuration list for PBXProject "LZZFilmPutinto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD2F4DF22697B9D005DE0FA;
+			productRefGroup = BFD2F4E922697B9D005DE0FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD2F4E722697B9D005DE0FA /* LZZFilmPutinto */,
+				BFD2F4FF22697B9F005DE0FA /* LZZFilmPutintoTests */,
+				BFD2F50A22697B9F005DE0FA /* LZZFilmPutintoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD2F4E622697B9D005DE0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD2F4F822697B9F005DE0FA /* LaunchScreen.storyboard in Resources */,
+				BFD2F4F522697B9F005DE0FA /* Assets.xcassets in Resources */,
+				BFD2F4F322697B9D005DE0FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD2F4FE22697B9F005DE0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD2F50922697B9F005DE0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD2F4E422697B9D005DE0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD2F4F022697B9D005DE0FA /* ViewController.m in Sources */,
+				BFD2F4FB22697B9F005DE0FA /* main.m in Sources */,
+				BFD2F4ED22697B9D005DE0FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD2F4FC22697B9F005DE0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD2F50522697B9F005DE0FA /* LZZFilmPutintoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD2F50722697B9F005DE0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD2F51022697B9F005DE0FA /* LZZFilmPutintoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD2F50222697B9F005DE0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD2F4E722697B9D005DE0FA /* LZZFilmPutinto */;
+			targetProxy = BFD2F50122697B9F005DE0FA /* PBXContainerItemProxy */;
+		};
+		BFD2F50D22697B9F005DE0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD2F4E722697B9D005DE0FA /* LZZFilmPutinto */;
+			targetProxy = BFD2F50C22697B9F005DE0FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD2F4F122697B9D005DE0FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD2F4F222697B9D005DE0FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD2F4F622697B9F005DE0FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD2F4F722697B9F005DE0FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD2F51222697B9F005DE0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFD2F51322697B9F005DE0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD2F51522697B9F005DE0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64993232M7;
+				INFOPLIST_FILE = LZZFilmPutinto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.LZZFilmPutinto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD2F51622697B9F005DE0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64993232M7;
+				INFOPLIST_FILE = LZZFilmPutinto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.LZZFilmPutinto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFD2F51822697B9F005DE0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64993232M7;
+				INFOPLIST_FILE = LZZFilmPutintoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.LZZFilmPutintoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZZFilmPutinto.app/LZZFilmPutinto";
+			};
+			name = Debug;
+		};
+		BFD2F51922697B9F005DE0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64993232M7;
+				INFOPLIST_FILE = LZZFilmPutintoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.LZZFilmPutintoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZZFilmPutinto.app/LZZFilmPutinto";
+			};
+			name = Release;
+		};
+		BFD2F51B22697B9F005DE0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64993232M7;
+				INFOPLIST_FILE = LZZFilmPutintoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.LZZFilmPutintoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LZZFilmPutinto;
+			};
+			name = Debug;
+		};
+		BFD2F51C22697B9F005DE0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64993232M7;
+				INFOPLIST_FILE = LZZFilmPutintoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.LZZFilmPutintoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LZZFilmPutinto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD2F4E322697B9D005DE0FA /* Build configuration list for PBXProject "LZZFilmPutinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD2F51222697B9F005DE0FA /* Debug */,
+				BFD2F51322697B9F005DE0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD2F51422697B9F005DE0FA /* Build configuration list for PBXNativeTarget "LZZFilmPutinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD2F51522697B9F005DE0FA /* Debug */,
+				BFD2F51622697B9F005DE0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD2F51722697B9F005DE0FA /* Build configuration list for PBXNativeTarget "LZZFilmPutintoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD2F51822697B9F005DE0FA /* Debug */,
+				BFD2F51922697B9F005DE0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD2F51A22697B9F005DE0FA /* Build configuration list for PBXNativeTarget "LZZFilmPutintoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD2F51B22697B9F005DE0FA /* Debug */,
+				BFD2F51C22697B9F005DE0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD2F4E022697B9D005DE0FA /* Project object */;
+}
