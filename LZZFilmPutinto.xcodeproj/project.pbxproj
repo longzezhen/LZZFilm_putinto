@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0745BFDB4B3C244AC3DB10E8 /* libPods-LZZFilmPutinto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2445F8FED9693875EB947D /* libPods-LZZFilmPutinto.a */; };
 		BFD2F4ED22697B9D005DE0FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F4EC22697B9D005DE0FA /* AppDelegate.m */; };
 		BFD2F4F022697B9D005DE0FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F4EF22697B9D005DE0FA /* ViewController.m */; };
 		BFD2F4F322697B9D005DE0FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD2F4F122697B9D005DE0FA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		BFD2F4FB22697B9F005DE0FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F4FA22697B9F005DE0FA /* main.m */; };
 		BFD2F50522697B9F005DE0FA /* LZZFilmPutintoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F50422697B9F005DE0FA /* LZZFilmPutintoTests.m */; };
 		BFD2F51022697B9F005DE0FA /* LZZFilmPutintoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F50F22697B9F005DE0FA /* LZZFilmPutintoUITests.m */; };
+		BFD2F51F22697D1F005DE0FA /* HWPKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F51E22697D1F005DE0FA /* HWPKWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		896528BE81125C6EDBB20876 /* Pods-LZZFilmPutinto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZZFilmPutinto.release.xcconfig"; path = "Target Support Files/Pods-LZZFilmPutinto/Pods-LZZFilmPutinto.release.xcconfig"; sourceTree = "<group>"; };
+		A4C82C8190CBEDAC7A05D247 /* Pods-LZZFilmPutinto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZZFilmPutinto.debug.xcconfig"; path = "Target Support Files/Pods-LZZFilmPutinto/Pods-LZZFilmPutinto.debug.xcconfig"; sourceTree = "<group>"; };
 		BFD2F4E822697B9D005DE0FA /* LZZFilmPutinto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZZFilmPutinto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD2F4EB22697B9D005DE0FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFD2F4EC22697B9D005DE0FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		BFD2F50B22697B9F005DE0FA /* LZZFilmPutintoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZZFilmPutintoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD2F50F22697B9F005DE0FA /* LZZFilmPutintoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZZFilmPutintoUITests.m; sourceTree = "<group>"; };
 		BFD2F51122697B9F005DE0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD2F51D22697D1E005DE0FA /* HWPKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPKWebView.h; sourceTree = "<group>"; };
+		BFD2F51E22697D1F005DE0FA /* HWPKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPKWebView.m; sourceTree = "<group>"; };
+		CF2445F8FED9693875EB947D /* libPods-LZZFilmPutinto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZZFilmPutinto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0745BFDB4B3C244AC3DB10E8 /* libPods-LZZFilmPutinto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FD6740779832430F29BF33F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4C82C8190CBEDAC7A05D247 /* Pods-LZZFilmPutinto.debug.xcconfig */,
+				896528BE81125C6EDBB20876 /* Pods-LZZFilmPutinto.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BFD2F4DF22697B9D005DE0FA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +103,8 @@
 				BFD2F50322697B9F005DE0FA /* LZZFilmPutintoTests */,
 				BFD2F50E22697B9F005DE0FA /* LZZFilmPutintoUITests */,
 				BFD2F4E922697B9D005DE0FA /* Products */,
+				7FD6740779832430F29BF33F /* Pods */,
+				F02F66CC77A9C0DED60C398A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +123,8 @@
 			children = (
 				BFD2F4EB22697B9D005DE0FA /* AppDelegate.h */,
 				BFD2F4EC22697B9D005DE0FA /* AppDelegate.m */,
+				BFD2F51D22697D1E005DE0FA /* HWPKWebView.h */,
+				BFD2F51E22697D1F005DE0FA /* HWPKWebView.m */,
 				BFD2F4EE22697B9D005DE0FA /* ViewController.h */,
 				BFD2F4EF22697B9D005DE0FA /* ViewController.m */,
 				BFD2F4F122697B9D005DE0FA /* Main.storyboard */,
@@ -132,6 +154,14 @@
 			path = LZZFilmPutintoUITests;
 			sourceTree = "<group>";
 		};
+		F02F66CC77A9C0DED60C398A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF2445F8FED9693875EB947D /* libPods-LZZFilmPutinto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD2F51422697B9F005DE0FA /* Build configuration list for PBXNativeTarget "LZZFilmPutinto" */;
 			buildPhases = (
+				248DE2940B2F85BFF2EA2940 /* [CP] Check Pods Manifest.lock */,
 				BFD2F4E422697B9D005DE0FA /* Sources */,
 				BFD2F4E522697B9D005DE0FA /* Frameworks */,
 				BFD2F4E622697B9D005DE0FA /* Resources */,
@@ -257,6 +288,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		248DE2940B2F85BFF2EA2940 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZZFilmPutinto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFD2F4E422697B9D005DE0FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +321,7 @@
 				BFD2F4F022697B9D005DE0FA /* ViewController.m in Sources */,
 				BFD2F4FB22697B9F005DE0FA /* main.m in Sources */,
 				BFD2F4ED22697B9D005DE0FA /* AppDelegate.m in Sources */,
+				BFD2F51F22697D1F005DE0FA /* HWPKWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +490,7 @@
 		};
 		BFD2F51522697B9F005DE0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C82C8190CBEDAC7A05D247 /* Pods-LZZFilmPutinto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +508,7 @@
 		};
 		BFD2F51622697B9F005DE0FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896528BE81125C6EDBB20876 /* Pods-LZZFilmPutinto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
